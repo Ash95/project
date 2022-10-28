@@ -1,4 +1,4 @@
-"use strict";
+ "use strict";
 
 let numberOfFilms = +prompt("Сколько фильмов вы уже посмотрели?",'');
 
@@ -40,4 +40,4 @@ for (let i = 0; i < numberOfFilms; i++) {
     personalMovieDB.movies[a] = b;
 }
 
-console.log(personalMovieDB);
+console.log(personalMovieDB); //Output
